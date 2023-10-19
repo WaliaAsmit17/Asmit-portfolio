@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asmit's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(74, 0, 0);
+            color: rgb(220, 158, 2);
+            font-family: 'Lucida Sans', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 80px;
+            color: wheat;
+            background-color: rgb(70, 0, 0);
+            text-decoration: none;
+        }
+
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            align-content: center;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: antiquewhite;
+        }
+
+        nav ul li a:hover {
+            color: chartreuse;
+        }
+
+        .left {
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            width: 30%
+        }
+
+        .leftsection {
+            font-style: italic;
+            font-size: 2rem;
+            height: auto;
+        }
+
+        .rightsection {
+            width: 80%;
+            height: auto;
+        }
+
+        .purple {
+            color: antiquewhite;
+        }
+
+        .github {
+            background-color: initial;
+            background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+            border-radius: 6px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+            color: #FFFFFF;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
+            height: 40px;
+            line-height: 40px;
+            outline: 0;
+            overflow: hidden;
+            pointer-events: auto;
+            position: relative;
+            text-align: center;
+            touch-action: manipulation;
+            user-select: none;
+            -webkit-user-select: none;
+            vertical-align: top;
+            white-space: nowrap;
+            width: 100px;
+            z-index: 9;
+            border: 0;
+            transition: box-shadow .2s;
+            margin: 80px;
+            left: -90px;
+            top: 200px;
+        }
+        .github:hover{
+            box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+        }
+        .linkedin{
+            background-color: initial;
+            background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+            border-radius: 6px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+            color: #FFFFFF;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
+            height: 40px;
+            line-height: 40px;
+            outline: 0;
+            overflow: hidden;
+            pointer-events: auto;
+            position: relative;
+            text-align: center;
+            touch-action: manipulation;
+            user-select: none;
+            -webkit-user-select: none;
+            vertical-align: top;
+            white-space: nowrap;
+            width: 100px;
+            z-index: 9;
+            border: 0;
+            transition: box-shadow .2s;
+            margin: 80px;
+            left: 20px;
+            
+        }
+        .linkedin:hover{
+            box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+        }
+
+        #element {
+            color: white;
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+        }
+
+        .secondsection {
+            max-width: 90vw;
+            margin: auto;
+            color: burlywood;
+        }
+        .animation{
+            position: relative;
+            top: 165px;
+        }
+        .para{
+            position: relative;
+            top: 165px;
+        }
+        body::-webkit-scrollbar {
+            background-color: transparent;
+            width: 12px;
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background: linear-gradient(rgb(160, 0, 0), rgb(160, 0, 0), rgb(160, 0, 0));
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Asmit's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/ABOUT.html">About Me</a></li>
+                <li><a href="/CONCEPTS.html">Concepts</a></li>
+                <li><a href="/ACHIEVEMENT.html">Achievements</a></li>
+                <li><a href="/Contact.html">Contact Me</a></li>
+
+
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div class="para">
+                Hi my name is
+                <span class="purple"> Asmit Walia</span>
+                <br>
+                Welcome to my Portfolio !
+                </div><br>
+                <div class="animation">
+                    <span id="element"></span>
+                </div>
+                <br>
+                <a href="https://github.com/WaliaAsmit17" target="_blank"><button class="github">github</button></a>
+                <a href="https://www.linkedin.com/in/asmit-walia-a13542183/"target="_blank"><button class="linkedin">linkedin</button></a>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png"
+                    alt="https://static-00.iconduck.com/assets.00/web-developer-illustration-2005x2048-fal2biag.png"
+                    width=80%>
+
+            </div>
+
+        </section>
+
+        <section class="secondsection">
+            <hr>
+        </section>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>"
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<br>Browse freely !'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

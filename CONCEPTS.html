@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(74, 0, 0);
+            margin: 10;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgb(70, 0, 0);
+            color: whitesmoke;
+            font-family: Georgia, Times, serif;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        .about-section {
+            display: flex;
+            flex-direction: row;
+            color: wheat;
+            background-color: rgb(70, 0, 0);
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .text-section {
+            flex: 1;
+            padding: 2rem;
+            width: auto;
+            height: auto;
+        }
+
+        .text-section h2 {
+            font-size: 1.5rem;
+        }
+
+        .text-section p {
+            font-size: larger;
+            font-style: italic;
+            height: auto;
+            width: auto;
+
+
+        }
+
+        .image-section {
+            flex: 1;
+            text-align: center;
+            background-color: rgb(70, 0, 0);
+            padding: 2rem;
+        }
+
+        .image-section img {
+            max-width: 50%;
+            border-radius: 5px;
+        }
+
+        .decorative-element {
+            position: absolute;
+            background-color: rgb(70, 0, 0);
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            opacity: 0.3;
+        }
+
+        .container1 {
+            width: 980px;
+            height: auto;
+            margin: 2rem auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px chocolate;
+            overflow: hidden;
+        }
+
+        .container1 .image-section{
+            position: relative;
+            transform: translateX(40px);
+        }
+
+        .container2{
+            width: 980px;
+            height: auto;
+            margin: 2rem auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px chocolate;
+            overflow: hidden;
+
+        }
+
+        .container2 .image-section{
+            height: auto;
+  max-width: 100%;
+        }
+
+        .container3{
+            width: 980px;
+            height: auto;
+            margin: 2rem auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px chocolate;
+            overflow: hidden;
+
+        }
+
+        .container4{
+            width: 980px;
+            height: auto;
+            margin: 2rem auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px chocolate;
+            overflow: hidden;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 80px;
+            color: wheat;
+            background-color: rgb(70, 0, 0);
+            text-decoration: none;
+        }
+
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            align-content: center;  
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: antiquewhite;
+        }
+
+        nav ul li a:hover {
+            color: chartreuse;
+        }
+
+        .about{
+            text-align: center;
+            color: wheat;
+            position: relative;
+        }
+
+        body::-webkit-scrollbar{
+            background-color: transparent;
+            width: 12px;
+        }
+        body::-webkit-scrollbar-thumb{
+            background: linear-gradient(rgb(160, 0, 0), rgb(160,0,0), rgb(160,0,0));
+            border-radius: 20px;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Asmit's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/ABOUT.html">About Me</a></li>
+                <li><a href="/CONCEPTS.html">Concepts</a></li>
+                <li><a href="/ACHIEVEMENT.html">Achievements</a></li>
+                <li><a href="/Contact.html">Contact Me</a></li>
+
+
+
+            </ul>
+        </nav>
+    </header>
+    <div class="about">
+        <h1>Concepts Learnt</h1>
+    </div>
+    <div class="container1">
+        <div class="about-section">
+            <div class="text-section">
+                <h2>Dynamic Memory Allocation</h2>
+                <p>
+                    In the data structures and algorithm class, I learned about the importance of dynamic memory allocation in managing memory resources efficiently. Dynamic memory allocation allows us to allocate and deallocate memory at runtime, helping us work with data structures of varying sizes. We explored key concepts like malloc() and free() in C/C++, new and delete operators in C++, and memory management strategies to prevent memory leaks and fragmentation. Understanding dynamic memory allocation is crucial for creating flexible and efficient data structures and algorithms.
+        </p>
+            </div>
+            <div class="image-section">
+                <img src="dynamic.png" alt="https://www.scaler.com/topics/images/dynamic-memory-allocation-in-c_thumbnail.webp">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container2">
+        <div class="about-section">
+            <div class="text-section">
+                <h2>Linked Lists</h2>
+                <p>
+                    One of the fundamental data structures I studied was the linked list. I gained a deep understanding of its various types, such as singly linked lists, doubly linked lists, and circular linked lists. The class covered how linked lists are structured using nodes and pointers, the insertion and deletion operations, and their advantages and limitations. Learning about linked lists was essential as they serve as a foundation for many other data structures and play a crucial role in developing algorithms for tasks like searching and sorting.                
+                </p>
+            </div>
+            <div class="image-section">
+                <img src="linkedlist.png" alt="https://iq.opengenus.org/content/images/2023/04/5.png">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container3">
+        <div class="about-section">
+            <div class="text-section">
+                <h2>Stacks & Queue</h2>
+                <p>
+                    Stacks are last-in, first-out (LIFO) data structures, and in my data structures and algorithms class, I comprehensively studied their applications and operations. We discussed how stacks are used in function calls, expression evaluation, and backtracking algorithms. Concepts like push and pop operations, stack overflow, and the implementation of stacks using arrays or linked lists were thoroughly covered. Queues, the first-in, first-out (FIFO) data structures, were another crucial topic in the course. I learned about the practical use of queues in scenarios like task scheduling, breadth-first search algorithms, and buffer management. The class explored basic queue operations like enqueue and dequeue, as well as circular queues and priority queues. The study of queues equipped me with the knowledge needed to design efficient solutions for problems involving ordered processing.
+
+                </p>
+            </div>
+            <div class="image-section">
+                <img src="stackqueue.png" alt="https://gohighbrow.com/wp-content/uploads/2018/07/Computer-science-fundamentals_6.1.png">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container4">
+        <div class="about-section">
+            <div class="text-section">
+                <h2>Trees</h2>
+                <p>
+                    Trees are hierarchical data structures that I extensively studied in my data structures and algorithm class. I gained an understanding of binary trees, binary search trees, AVL trees, and B-trees, and their applications in various fields, including databases and file systems. The class covered tree traversal algorithms, balancing techniques, and the importance of maintaining ordered data. Learning about trees was instrumental in grasping advanced data structures and algorithms, as they often build upon tree-based structures.
+
+                </p>
+            </div>
+            <div class="image-section">
+                <img src="trees.png" alt="https://w1.pngwing.com/pngs/574/622/png-transparent-drawing-tree-heap-binary-heap-leftist-tree-data-structure-binary-tree-algorithm-node-thumbnail.png">
+            </div>
+        </div>
+
+    </div>
+
+    </script>
+</body>
+
+</html>
